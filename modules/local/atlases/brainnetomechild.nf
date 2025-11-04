@@ -26,7 +26,7 @@ process ATLASES_BRAINNETOMECHILD {
 
     """
     # Exporting the FS license and setting up the environment
-    export FS_LICENSE=./license.txt
+    export FS_LICENSE=./${fs_license}
     #export PYTHONPATH=/opt/freesurfer/python/packages:\$PYTHONPATH
 
     # Setting the logging configs.
